@@ -91,7 +91,7 @@ az webapp create -g rg-teko-github-actions-prod-switzerlandnorth -p asp-teko-git
 
 ##### Automatisiertes Release
 
-1. Der dazugehörige GitHub Action Workflow für das automatisierte Erstellen eines Releases befindet sich hier: [release.yml](.github\workflows\release.yml)
+1. Der dazugehörige GitHub Action Workflow für das automatisierte Erstellen eines Releases befindet sich hier: [release.yml](.github/workflows/release.yml)
 
 **Wichtig:**  Es wird nur ein Release erzeugt, sobald ein Tag gepushed wird.
 
